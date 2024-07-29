@@ -1,0 +1,181 @@
+/**/
+@import url(css/dnngo-font-icon.css );
+
+@import url(vendor/bootstrap/bootstrap.css );
+@import url(css/skin.css );
+@import url(css/shortcodes.css);
+@import url(css/page.css);
+@import url(css/header_normal.css );
+
+@import url( 'https://fonts.googleapis.com/css?family=Droid+Serif');
+
+/**************** Login page******************/
+@media only screen and (max-width:767px) {
+	.loginContent .LoginPanel {
+		width: 100% !important;
+	}
+	.loginContent .dnnFormItem .dnnLoginRememberMe {
+		white-space: nowrap;
+	}
+	.loginContent .dnnFormLabel {
+		display: block !important;
+		text-align: left !important;
+	}
+}
+
+/**************** register page******************/
+@media only screen and (max-width:767px) {
+.dnnRegistrationForm {
+	min-width: inherit !important;
+}
+.dnnRegistrationForm .dnnForm {
+	width: 100%;
+}
+.dnnRegistrationForm .dnnFormLabel {
+	display: block !important;
+	text-align: left !important;
+}
+.dnnRegistrationForm .dnnForm .dnnFormItem .dnnLabel {
+	display: block !important;
+	float: none !important;
+	text-align: left !important;
+	width: 100%;
+}
+.dnnRegistrationForm .dnnForm .dnnFormItem a.dnnFormHelp {
+	right: auto !important;
+	position: static !important;
+	margin-left: 5px !important;
+}
+.dnnRegistrationForm .dnnForm .dnnFormItem {
+	padding: 0px !important;
+	margin: 0px !important;
+}
+.dnnRegistrationForm .dnnFormItem input[type="text"], .dnnRegistrationForm .dnnFormItem input[type="password"], .dnnRegistrationForm .dnnFormItem input[type="email"], .dnnRegistrationForm .dnnFormItem input[type="tel"], .dnnRegistrationForm .dnnFormItem select, .dnnRegistrationForm .dnnFormItem textarea {
+	width: 100%;
+	margin-bottom: 10px !important;
+}
+}
+
+/**************** Password page******************/
+@media only screen and (max-width:767px) {
+ .dnnSendPasswordContent {
+ width: auto !important;
+}
+ .dnnSendPasswordContent .dnnLabel {
+ display: block !important;
+ width: 100% !important;
+ text-align: left;
+}
+ .dnnSendPasswordContent a.dnnFormHelp, .dnnSendPasswordContent .dnnForm .dnnFormItem a.dnnFormHelp, .dnnSendPasswordContent .dnnTooltip label a.dnnFormHelp {
+ position: static;
+}
+ .dnnSendPasswordContent input[type="text"], .dnnSendPasswordContent input[type="password"], .dnnSendPasswordContent input[type="email"], .dnnSendPasswordContent input[type="tel"], .dnnSendPasswordContent select, .dnnSendPasswordContent textarea {
+ width: 90%;
+ margin-bottom: 10px !important;
+}
+ .dnnSendPasswordContent ul.dnnActions {
+ padding: 0 !important;
+}
+}
+/* ********** Control Panel Style ************** */
+.CommandButton, A.CommandButton:link, A.CommandButton:visited, A.CommandButton:active {
+	font-size: 12px;
+	color: #973939;
+	text-decoration: none;
+	font-weight: normal;
+}
+A.CommandButton:hover {
+	color: #973939;
+	text-decoration: underline;
+	font-size: 12px;
+	font-weight: normal;
+}
+.FileManager A, .FileManager A:link, .FileManager A:visited, .FileManager A:active {
+	color: #000;
+	text-decoration: underline;
+}
+.FileManager A:hover {
+	color: #000;
+	text-decoration: none;
+}
+/* ********** Pane Style ************** */
+.DNNEmptyPane {
+	display: none;
+}
+#dnn_ControlPanel #dnnCPWrap {
+	filter: none !important;
+}
+ul.dnnActionMenuBody li ul li a, ul.dnnActionMenuBody li ul li a img {
+	color: #328DDE!important;
+}
+form#Form {
+	height: 100%;
+}
+.ModuleTitle_SubMenu {
+	z-index: 9999!important;
+}
+/* ********** Pane Style End ************** */
+/*Bootstrap.css*/
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+	min-height:inherit;
+}
+#ControlBar, #ControlBar *, .dnnMemberDirectory, .dnnMemberDirectory *, .dnn_mact > li.actionMenuMove > ul li {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.carousel-inner>.item>a>img, .carousel-inner>.item>img, .img-responsive, .thumbnail a>img, .thumbnail>img{
+	display:inline-block;
+}
+big {
+    font-size: larger;
+}
+/*Bootstrap.css End*/
+#Body, html, body, .Head, .SubTitle, .SubSubTitle, .Normal {
+	color: #666666;
+	font-size: 14px;
+	font: normal 14px/1.8 'Raleway', sans-serif;
+	font-weight: normal;
+}
+.contact_img img{
+	display:none;
+}
+
+.home01-banner img{
+	max-width: 100%;
+}
+li p {
+    line-height: 1.8;
+}
+
+body[style*="margin-left: 80px"] .mfp-arrow-left.mfp-prevent-close {
+    margin-left: 80px;
+}
+
+
+.CoverPane, 
+.BannerPane, 
+.BottomOutPane,
+.footer_box [class*="Pane"],
+.header_bg [class*="Pane"],
+.BannerPane [class*="Pane"] ,
+.pagetitleBox [class*="Pane"] {
+	margin-bottom: 0px!important;
+}
+
+.DNNEmptyPane{
+   width:auto;
+}
+
+.dnn_logo a,
+.dnn_logo a:hover{
+	text-decoration:none;
+}
+
+
+.Breadcrumb_box_bg li:first-child {
+	display:block;
+}
+	
+
+
